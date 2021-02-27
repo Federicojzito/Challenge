@@ -13,33 +13,33 @@ function calculateNumbers(){
         
         if(num2 > num3){
 
-            alert(`The order is higher to lower : ${num1}, ${num2}, ${num3}`)
+            alert(`The order is higher to lower : number 1 - ${num1}, number 2 - ${num2}, number 3 - ${num3}`)
 
         }else{
 
-            alert(`The order is higher to lower : ${num1}, ${num3}, ${num2}`)
+            alert(`The order is higher to lower : number 1 - ${num1}, number 3 - ${num3}, number 2 - ${num2}`)
         }
 
         }else if(num2 >= num1 && num2 >= num3){
 
         if(num1 > num3){
 
-            alert(`The order is higher to lower : ${num2}, ${num1}, ${num3}`)
+            alert(`The order is higher to lower : number 2 - ${num2}, number 1 - ${num1}, number 3 - ${num3}`)
 
         }else{
 
-            alert(`The order is higher to lower : ${num2}, ${num3}, ${num1}`)
+            alert(`The order is higher to lower : number 2 - ${num2}, number 3 - ${num3}, number 1 - ${num1}`)
         }
 
     }else if(num3 >= num1 && num3 >= num2){
 
         if(num1 > num2){
 
-            alert(`The order is higher to lower : ${num3}, ${num1}, ${num2}`)
+            alert(`The order is higher to lower : number 3 - ${num3}, number 1 - ${num1}, number 2 - ${num2}`)
 
         }else{
 
-            alert(`The order is higher to lower : ${num3}, ${num2}, ${num1}`)
+            alert(`The order is higher to lower : number 3 - ${num3}, number 2 - ${num2}, number 1 - ${num1}`)
         }
     }
 }
