@@ -1,14 +1,8 @@
 //Variables
-
-let param1 = parseInt(prompt("Insert parameter 1 : "));
-let param2 = parseInt(prompt("Insert parameter 2 : "));
-let param3 = parseInt(prompt("Insert parameter 3 : "));
-let param4 = parseInt(prompt("Insert parameter 4 : "));
-
 const params = [123, 1551, 1441, '222', 15];
 
 //Fuction Validate Numbers
-function validationNumber (){
+
 function validationNumber() {   
     const palindromes = [];
     params.forEach((param) => {
@@ -49,5 +43,4 @@ const palindrome = (params) => {
 
 
 //Callback Function validationNumber
-//Callback Function Validation Number
 validationNumber();
