@@ -29,11 +29,6 @@ const palindrome = (params) => {
     parameters = parseInt(parameters / 10);
   }
 
-    if (Number.isInteger(param1,param2,param3,param4)){
-        alert(`The number entered are ${param1},${param2},${param3},${param4}`)
-    } else{
-        alert("You have to enter numbers");
-    }
   if (result == reverse) {
     console.log(reverse + " Is palindromo");    
     return true;
